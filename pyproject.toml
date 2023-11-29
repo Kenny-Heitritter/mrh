@@ -3,3 +3,12 @@ requires = ["setuptools", "wheel", "pyscf", "numpy"]
 
 [tool.setuptools.packages.find]
 where = ["my_pyscf"]  # list of folders that contain the packages (["."] by default)
+
+[project]
+name = "mrh"
+version = "0.1.0"
+description = "mrh code with custom pyscf"
+readme = "README.md"
+requires-python = ">=3.8.5"
+authors = [{name = "Matthew Hermes et. al."}]
+
