@@ -1,2 +1,5 @@
 [build-system]
 requires = ["setuptools", "wheel", "pyscf", "numpy"]
+
+[tool.setuptools.packages.find]
+where = ["my_pyscf"]  # list of folders that contain the packages (["."] by default)
